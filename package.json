@@ -1,0 +1,16 @@
+{
+  "name": "buta7-linebot.netlify.app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "netlify-lambda serve ./src --port 8080",
+    "build": "netlify-lambda build ./src"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^7.4.0",
+    "express": "^4.17.1",
+    "netlify-lambda": "^2.0.15",
+    "serverless-http": "^2.7.0"
+  }
+}
