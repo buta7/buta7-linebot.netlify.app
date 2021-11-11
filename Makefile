@@ -25,9 +25,8 @@ build: clean ## Build static html
 #	@git commit -m 'modified'
 #	@git push origin master
 #
-#clean: ## Clean old files
-#	@hugo --cleanDestinationDir
-#	rm -fr public/*
+clean: ## Clean old files
+	@rm -fr dist/*
 
 help: ## Print this help
 	@echo 'Usage: make [target]'
