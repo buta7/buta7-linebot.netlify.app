@@ -20,7 +20,7 @@ netlify.toml
 add module
 
 ```shell
-yarn add express @line/bot-sdk serverless-http netlify-lambda
+yarn add express @line/bot-sdk serverless-http netlify-lambda dotenv
 ```
 
 
